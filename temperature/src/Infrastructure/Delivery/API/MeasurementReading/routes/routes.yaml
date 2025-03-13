@@ -1,0 +1,4 @@
+reading_add:
+    path: /reading
+    controller: App\Infrastructure\Delivery\API\MeasurementReading\MeasurementAddedAction
+    methods: [POST]

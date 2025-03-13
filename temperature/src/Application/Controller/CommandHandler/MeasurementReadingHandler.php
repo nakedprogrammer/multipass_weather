@@ -9,13 +9,9 @@ use App\Domain\Entities\MeasurementReading;
 use App\Domain\Repositories\MeasurementReadingRepositoryInterface;
 final class MeasurementReadingHandler
 {
-    private measurementReadingRepositoryInterface $userInterface;
-
-    public function __construct(private MeasurementReadingRepositoryInterface $measurementReadingRepository)
-    {
-        $this->measurementReadingRepository = $measurementReadingRepository;
-
-
+    public function __construct(
+        private MeasurementReadingRepositoryInterface $measurementReadingRepository
+    ) {
     }
 
     public function __invoke(MeasurementReadingCommand $command)

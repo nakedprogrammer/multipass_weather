@@ -23,7 +23,7 @@ class MeasurementAddedActionTest extends WebTestCase
 
     }
 
-    public function testRegisterUser(): void
+    public function test_adding_measurement(): void
     {
         $requestData = [
             'reading' => [

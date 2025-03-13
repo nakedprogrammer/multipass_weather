@@ -26,16 +26,5 @@ final class MeasurementReadingHandler
         }
 
     }
-    // public function __invoke(RegisterUserCommand $command)
-    // {
-    //     $user = new User();
-    //     $user->setEmail($command->getEmail());
-    //     $user->setFirstname($command->getFirstname());
-    //     $user->setLastname($command->getLastName()); 
-    //     $user->setNationality($command->getNationality());
-    //     $hashedPassword = $this->passwordHasher->hashPassword($user, $command->getPassword());
-    //     $user->setPassword($hashedPassword);
 
-    //     $this->userInterface->create($user);
-    // }
 }
